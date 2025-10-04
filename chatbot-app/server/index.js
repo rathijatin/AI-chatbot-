@@ -8,7 +8,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 
-const GEMINI_API_KEY = 'AIzaSyAiSj11yTdG7wC7rp6CMMknPTyFn8Wv4w4';
+const GEMINI_API_KEY = 'AIzaSyCZbDVmPFO4icsn8zBq9K5OjJDkrPIMSBs';
 
 
 app.post('/api/chat', async (req, res) => {

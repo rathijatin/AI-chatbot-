@@ -22,7 +22,7 @@ function Star({ width, height }) {
     return () => clearInterval(interval);
   }, [height, width, speed]);
 
-  return (
+  return (  
     <circle cx={x} cy={y} r={1.2} fill="white" />
   );
 }
